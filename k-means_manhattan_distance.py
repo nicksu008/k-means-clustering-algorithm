@@ -76,7 +76,7 @@ def kmeans_manhdist(x, k):
     final_clusters = clusters_table
     final_centroids = np.array(centroids_new)
     # to show the final result
-    print("======================Final results of k-means with Euclidean distance======================================")
+    print("======================Final results of k-means with Manhattan distance======================================")
     print("Total number of updates:", num_errors)
     print("Final clusters:")
     print(clusters_table)
