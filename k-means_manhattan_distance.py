@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 
-# Question 4: k-means with Manhattan distance
+# k-means with Manhattan distance
 # =============================================================================================
 
 # Initialise cluster centers by randomly selecting the number of k instances from the dataset x
@@ -64,7 +64,6 @@ def kmeans_manhdist(x, k):
 
         # 3)assign all instances to the closest cluster center
         clusters_table = assign_clusters(x, dist_table)
-
 
         centroids_old = deepcopy(centroids_new) # to independently copy the centroids to the old one after done the assignment
 
@@ -218,7 +217,7 @@ plt.show()
 
 
 
-# Question 5: k-means with Manhattan distance and l2 normalised feature vectors
+# k-means with Manhattan distance and l2 normalised feature vectors
 # =============================================================================================
 
 def l2_norm(X):
