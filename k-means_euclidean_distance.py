@@ -6,7 +6,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 
 
-# Question1: implement K-Means algorithm with Euclidean distance
+# implement K-Means algorithm with Euclidean distance
 # ========================================================================
 
 # Initialise cluster centers by randomly selecting the number of k instances from the dataset x
@@ -77,7 +77,7 @@ def kmeans_eucldist(x, k):
     return final_clusters, final_centroids
 
 
-# Question2: vary k from 1 to 10 in k-means with Euclidean distance, compute the precision, recall, and F-score.
+# vary k from 1 to 10 in k-means with Euclidean distance, compute the precision, recall, and F-score.
 # ================================================================================================================
 
 # convert 4 data files into txt file, which are "animals", "countries", "fruits", and "veggies"
@@ -207,7 +207,7 @@ plt.ylabel('Precision, Recall, F1')
 plt.legend()
 plt.show()
 
-# Question 3: k-means with Euclidean distance and l2 normalised feature vectors
+# k-means with Euclidean distance and l2 normalised feature vectors
 # ======================================================================================
 
 # l2 normalised feature vectors
