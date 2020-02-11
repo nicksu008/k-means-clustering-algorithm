@@ -59,7 +59,7 @@ def kmeans_manhdist(x, k):
 
     while error != 0:
         num_errors += 1
-        # 2)compute the Euclidean distance between each instance and cluster centers
+        # 2)compute the Manhattan distance between each instance and cluster centers
         dist_table = manhdist_table(x, centroids_new)
 
         # 3)assign all instances to the closest cluster center
